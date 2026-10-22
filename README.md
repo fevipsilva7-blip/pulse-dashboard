@@ -1,8 +1,12 @@
-#  Pulse — Dashboard em React
+# Pulse — Dashboard em React
+
+[![Demo](https://img.shields.io/badge/DEMO-ff00c8?style=for-the-badge&logo=vercel&logoColor=white)](https://react-dashboard2-tau.vercel.app/)
 
 Painel administrativo responsivo construído com **React + Vite + Recharts**, com KPIs, gráficos (linha, barra e pizza), tabela de pedidos e alternância de tema claro/escuro.
 
-##  Funcionalidades
+> Os dados exibidos são fictícios (`src/data/mockData.js`).
+
+## Funcionalidades
 
 - Cards de KPI (receita, pedidos, visitantes, conversão)
 - Gráfico de receita mensal (linha)
@@ -12,27 +16,23 @@ Painel administrativo responsivo construído com **React + Vite + Recharts**, co
 - Tema claro/escuro
 - Layout responsivo (sidebar recolhe em telas pequenas)
 
-##  Como rodar
+## Como rodar
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 🔗 Demo
-
-Veja o dashboard funcionando: [react-dashboard2-tau.vercel.app](https://react-dashboard2-tau.vercel.app/)
-
-##  Tecnologias
+## Tecnologias
 
 - React 18
 - Vite
 - Recharts
 
-##  Estrutura
+## Estrutura
 
 ```
-react-dashboard/
+.
 ├── src/
 │   ├── components/
 │   │   ├── Sidebar.jsx
@@ -51,8 +51,8 @@ react-dashboard/
 └── vite.config.js
 ```
 
-## 💡 Próximos passos
+## Próximos passos
 
-- Trocar `mockData.js` por chamadas a uma API real (ex: seu back-end em Node/Express)
+- Trocar `mockData.js` por chamadas a uma API real (por exemplo, um back-end em Node/Express)
 - Adicionar filtro de período (últimos 7/30/90 dias)
 - Adicionar autenticação
